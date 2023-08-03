@@ -1,0 +1,125 @@
+html{
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #0A0A0A;
+  justify-content: center;
+  align-items: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.octo {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: hotpink;
+  line-height: 250px;
+  text-align: center;
+  border-radius: 41%;
+  color: hotpink;
+  font-size: 59px;
+  text-shadow: 1px 1px 13px rgba(243, 32, 239, 0.6);
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  overflow: hidden;
+  transform: scale(0.70);
+}
+.octo:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0A0A0A;
+  box-shadow: inset 0 0 45px -4px rgba(243, 32, 239, 0.6);
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  border-radius: 41%;
+  transform: scale(0.95);
+}
+.octo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://3sdgames.files.wordpress.com/2014/01/hex-transparent.png");
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-filter: invert(1);
+  background-size: 240px auto;
+  background-position: center center;
+}
+.octo .octo-label {
+  font-size: 12px;
+  line-height: 1;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 20px rgba(84, 215, 217, 0.6);
+}
+.octo .octo-label strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.octo-label-top  {
+  display: block;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+p {
+  font-family: 'Orbitron';
+}
+
+.fyvr11mu.fyvr11e4.fyvr11gg.fyvr11fg.fyvr11ew._1qxj1ib9 {
+  font-family: "Orbitron";
+  font-size: '23px' !important;
+}
